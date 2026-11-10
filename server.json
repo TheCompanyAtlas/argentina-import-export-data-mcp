@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.TheCompanyAtlas/argentina-import-export-data",
+  "title": "Argentina Customs Data: Importers, Suppliers & HS Codes",
+  "description": "Argentina import export data: customs shipments, importers, suppliers and HS codes via MCP.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/TheCompanyAtlas/argentina-import-export-data-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://thecompanyatlas.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://thecompanyatlas.com/mcp/trade/argentina"
+    }
+  ]
+}
